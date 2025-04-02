@@ -3,59 +3,78 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
+<BaseLayout title="CV" sideBarActiveItemID="cv">
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Développeur web et mobile depuis 2021, découvrez mon parcours ainsi que mes différentes passions
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+    <div class="text-3xl w-full font-bold">Diplôme</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Master Méthodes Informatiques Appliquées à la Gestion des Entreprises"
+      subtitle="2019-2021, Université des Antille/En alternance à ALLMOL TECHNOLOGY, Guadeloupe"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Licence Méthodes Informatiques Appliquées à la Gestion des Entreprises"
+      subtitle="2018-2019, Université des Antille/En alternance à SYSINV, Guadeloupe"
+    />
+    <TimeLineElement
+      title="BTS Services Informatiques aux organisations Spécialité : Solutions Logicielles et Applications Métiers"
+      subtitle="2015-2017, Lycée Général et Technologique de Baimbridge, Guadeloupe"
     />
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+    <div class="text-3xl w-full font-bold">Expérience</div>
   </div>
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Développeur web et mobile - CDI"
+      subtitle="Septembre 2021 - Octobre 2024, ALLMOL TECHNOLOGY, Guadeloupe"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    Conception, développement et maintenance d'application web et mobile (PHP, IONIC, HTML, JS, CSS, JAVA, HBASE, MONGODB) - Support technique - Test applicatif - Migration de données (Spring batch)
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Développeur web et mobile - Alternance"
+      subtitle="Septembre 2019 - Aout 2021, ALLMOL TECHNOLOGY, Guadeloupe"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    Conception, développement et maintenance d'application web et mobile (PHP, IONIC, HTML, JS, CSS, JAVA, HBASE, MONGODB) - Formation d'utilisateur - Support technique - Test applicatif
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Développeur  - Alternance"
+      subtitle="Septembre 2018 - Aout 2019, SYSINV, Guadeloupe"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    Gestion de projet, Conception, développement, test et recettage d'une application (windev) de gestion pour la SICAMA - Maintenance informatique
+    </TimeLineElement>
+    <TimeLineElement
+      title="Développeur  - CDD"
+      subtitle="Avril 2018 - Septembre 2018, SYSINV, Guadeloupe"
+    >
+    Gestion de projet, Conception, développement, test et recettage d'une application (windev) de gestion pour la SICAMA - Maintenance informatique
+    </TimeLineElement>
+    <TimeLineElement
+      title="Stage en 2 ème année de BTS"
+      subtitle="Janvier 2017 , ES2I, Guadeloupe"
+    >
+    Maintenance Informatique, Windev
+    </TimeLineElement>
+    <TimeLineElement
+      title="Stage en 1 ère année de BTS"
+      subtitle="Juin 2016 , C2I, Guadeloupe"
+    >
+    Déploiement de matériels informatiques pour la Caisse d'épargne - Provisioning des nouveaux postes du parc informatique - Formation des utilisateurs à la mise en route du système Citrix
     </TimeLineElement>
   </div>
 
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -66,27 +85,48 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank"> Certification Name (with link)</a>
     </li>
-  </ul>
+  </ul> -->
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
+    <div class="text-3xl w-full font-bold">Compétences</div>
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <!-- Langage : PHP /  / HTML / CSS / JAVA / PYTHON / WLAN
+Concept : Programmation Orientée Objet, Test Unitaire, Architecture 3 Tiers, Méthodes
+Agiles
+Bases de données : POSTGRESQL, MongoDB, HBASE, MYSQL, Création de modèle
+relationnel
+Systèmes d’information : UML Diagramme de classe, cas d’utilisation, état transition, activité,
+séquence, Modèle conceptuel de données
+Anglais (Niveau avancée) -->
+
+    <li>Français (natif)</li>
+    <li>Créole (natif)</li>
+    <li>Anglais</li>
+    <li>PHP</li>
+    <li>JAVASCRIPT</li>
+    <li>REACT</li>
+    <li>AstroJS</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>IONIC</li>
+    <li>JAVA</li>
+    <li>SPRING BATCH</li>
+    <li>WLAN</li>
+    <li>PYTHON</li>
+    <li>Méthodes Agiles</li>
+    <li>POSTGRESQL</li>
+    <li>MongoDB</li>
+    <li>HBASE</li>
+    <li>MYSQL</li>
+    <li>UML</li>
+    <li>GIT</li>
+    <li>JIRA</li>
+    <li>Composition de musique</li>
+    <li>FL Studio</li>
+    <li>Blender</li>
+    <li>Percussions africaines, Guadeloupe</li>
+    <li>Strombophone</li>
   </ul>
 </BaseLayout>
